@@ -46,10 +46,10 @@ $csv |ForEach-Object {
     [System.Windows.Forms.SendKeys]::SendWait("{TAB}")
     Start-Sleep -Seconds 1
     #7
-    [System.Windows.Forms.SendKeys]::SendWait("{TAB}"+ "3882 S. Ellsworth St. Gowen Field, Idaho 83705")
+    [System.Windows.Forms.SendKeys]::SendWait("{TAB}"+ "3882 S.Bogus, Idaho 8370")
     Start-Sleep -Seconds 1
     #8
-    [System.Windows.Forms.SendKeys]::SendWait("{TAB}" + "208-272-3662")
+    [System.Windows.Forms.SendKeys]::SendWait("{TAB}" + "208-555-3662")
     Start-Sleep -Seconds 1
     #9
     [System.Windows.Forms.SendKeys]::SendWait("{TAB}" + $personeldata.EMAIL)
@@ -211,13 +211,13 @@ $csv |ForEach-Object {
     Start-Sleep -Seconds 1
     #Section D
     #1a
-    [System.Windows.Forms.SendKeys]::SendWait("{TAB}" + "Kyle Erickson/Director of Operations")
+    [System.Windows.Forms.SendKeys]::SendWait("{TAB}" + "Kyle Something")
     Start-Sleep -Seconds 1
     #b
-    [System.Windows.Forms.SendKeys]::SendWait("{TAB}" +"208-272-3662")
+    [System.Windows.Forms.SendKeys]::SendWait("{TAB}" +"85484848484")
     Start-Sleep -Seconds 1
     #1c
-    [System.Windows.Forms.SendKeys]::SendWait("{TAB}" +"kyle.erickson.6@us.af.mil")
+    [System.Windows.Forms.SendKeys]::SendWait("{TAB}" +"Mail@mail.com")
     Start-Sleep -Seconds 1
     #1d
     [System.Windows.Forms.SendKeys]::SendWait("{TAB}")
